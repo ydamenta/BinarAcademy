@@ -50,7 +50,6 @@ const playerPick = (id) => {
     document.getElementById(id).style.borderRadius = '5%';
     let playerChoice = document.getElementById(id).alt;
     let allChoice = randomComputerPick(playerChoice);
-    //let winner = 
     let winner = decideWinner(allChoice);
     console.log(winner);
     removeClickElementforGame();
